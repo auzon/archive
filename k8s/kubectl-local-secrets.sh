@@ -17,3 +17,5 @@ kubectl get secret user-service-secrets -o jsonpath="{.data}"
 
 # same as above but in yaml
 kubectl get secret user-service-secrets -o yaml
+
+# docs: https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_secret_generic/#examples
