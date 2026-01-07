@@ -1,8 +1,0 @@
-# get the service/pod name
-kubectl get all
-
-# port forward foo-service on ports host:pod
-kubectl port-forward service/foo-service 8080:8080
-
-# see docs:
-# https://kubernetes.io/docs/reference/kubectl/generated/kubectl_port-forward/
